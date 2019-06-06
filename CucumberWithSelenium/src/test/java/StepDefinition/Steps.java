@@ -25,7 +25,7 @@ public class Steps {
 		DesiredCapabilities caps = DesiredCapabilities.chrome();
 		caps.setPlatform(Platform.LINUX);
 		//driver = new RemoteWebDriver(new URL("http://192.168.99.100:4444/wd/hub"), caps);
-		driver = new RemoteWebDriver(new URL("http://redzonetest2/wd/hub"), caps);
+		driver = new RemoteWebDriver(new URL("http://redzonetest2.symc.symantec.com/wd/hub"), caps);
 
        //driver= new FirefoxDriver();					
        driver.manage().window().maximize();			
